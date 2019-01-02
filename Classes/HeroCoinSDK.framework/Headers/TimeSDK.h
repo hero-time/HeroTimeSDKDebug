@@ -90,4 +90,9 @@ typedef void (^LogoutResult)(BOOL success);
  */
 @property (nonatomic, copy, readonly) NSString *timeSDKVersion;
 
+/**
+ 游戏断线标记，默认没断线
+ */
+@property (nonatomic,assign,)BOOL isOffLine;
+
 @end
