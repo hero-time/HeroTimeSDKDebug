@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "HeroTimeSDKDebug"
-s.version      = "0.0.1.1"
+s.version      = "0.0.1.2"
 s.summary      = "HeroTimeSDKDebug."
 
 s.description  = <<-DESC
