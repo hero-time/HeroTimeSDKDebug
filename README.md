@@ -23,7 +23,7 @@ pod 'HeroTimeSDKDebug'
 
 ## Author
 
-Joke-Wang, wangzhangzhong1102@163.com
+Joke-Wang, zhangzhong.wang@timeltd.cn
 
 ## License
 
