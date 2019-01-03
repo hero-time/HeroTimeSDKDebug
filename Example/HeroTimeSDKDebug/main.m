@@ -2,15 +2,16 @@
 //  main.m
 //  HeroTimeSDKDebug
 //
-//  Created by 王章仲 on 2018/12/5.
-//  Copyright © 2018 王章仲. All rights reserved.
+//  Created by Joke-Wang on 01/03/2019.
+//  Copyright (c) 2019 Joke-Wang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+@import UIKit;
+#import "TimeAppDelegate.h"
 
-int main(int argc, char * argv[]) {
+int main(int argc, char * argv[])
+{
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TimeAppDelegate class]));
     }
 }

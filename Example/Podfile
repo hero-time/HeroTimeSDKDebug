@@ -2,7 +2,13 @@ use_frameworks!
 
 platform :ios, '8.0'
 
-target 'HeroTimeSDKDebug' do
+target 'HeroTimeSDKDebug_Example' do
   pod 'HeroTimeSDKDebug', :path => '../'
 
+  target 'HeroTimeSDKDebug_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
 end
